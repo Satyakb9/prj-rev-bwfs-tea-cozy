@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  color: seashell;
+  background-color: black;
+}
+
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline;
+  height: 69px;
+  position: fixed;
+  z-index: 5;
+  align-items: center;
+  width: 100%;
+  background-color: inherit;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header div span {
+  padding: 0 15px;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+}
+
+.mission {
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+}
+
+.mission-img {
+  width: 1200px;
+  height: 700px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+}
+
+.mission-stmt {
+  display: block;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.mission-stmt h2, h4 {
+  margin: 15px auto;
+}
+
+.row {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.row img {
+  height: 200px;
+  width: 300px;
+  padding: 0 15px;
+}
+
+.month {
+  position: relative;
+  top: 120px;
+  left: 260px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.row h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h4, h2, h5 {
+  text-align: center;
+}
+
+.location {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  position: relative;
+  left: 157px;
+  top: 175px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.venues {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.location-text {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 0px;
+  margin-bottom: 15px;
+}
+.venues div {
+  background-color: black;
+  width: 300px;
+  min-height: 200px;
+  margin: 15px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.venues span {
+  margin: 20px auto;
+}
+
+.venues h3 {
+  margin: 15px auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 200px;
+  margin-left: 117px;
+  position: relative;
+  top: 165px;
+}
+
+footer span,
+h5 {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.copyright {
+  position: relative;
+  top: 220px;
+  display: block;
+  text-align: left;
+}
